@@ -17,7 +17,7 @@ class ModMenuScene
     @sprites["cmdwindow"].commands = commands.list
     cmdwindow = @sprites["cmdwindow"]
    # cmdwindow.resizeToFit(commands)
-   cmdwindow.resizeToFit(cmdwindow.commands)
+	cmdwindow.resizeToFit(cmdwindow.commands)
     cmdwindow.x = Graphics.width - cmdwindow.width
     cmdwindow.y = 0
     cmdwindow.index = 0
@@ -44,6 +44,7 @@ class ModMenuScene
           pbPlayDecisionSE
           commands.currentList = commands.getCommand(cmdwindow.index)
           cmdwindow.commands = commands.list
+		  cmdwindow.resizeToFit(cmdwindow.commands)
           cmdwindow.index = 0
           parent = true
           refresh = true
