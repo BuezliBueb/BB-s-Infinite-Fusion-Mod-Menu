@@ -24,7 +24,8 @@
 
 <details>
 <summary>Adding your own mods to the Mod Menu</summary>
-<p>To register your Options in the Mod Menu, add the Following code:</p>
+<p>To register your Options in the Mod Menu, add a .rb file to Data/Scripts/998_mods/002_BB_MOdMenu/006_Mods with the Following code</p>
+<p>The Nameing Scheme is 00X_Name_of_your_mod, depending on the Number you choose, your Mod will show up higher/lower in the Mod Menu. If your Mod has the Same number as someone elses Mod, the order will be alphabetical</p>
 <pre>
   <code class="language-ruby">
 ModMenuCommands.register("YourIdHere",{
