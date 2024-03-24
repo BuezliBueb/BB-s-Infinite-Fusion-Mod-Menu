@@ -6,6 +6,7 @@ To exit, press "Cancle", "Right" or "Left" agian. ("Right" will bring you back t
 
 This is meant to be a Framework for other Mods, it comes with one Mod preinstalled (Access PC from anywhere).
 Mods that need the Mod Menu to work:
+
 -BB's Ability Randomizer (https://github.com/BuezliBueb/BB-s-Infinite-Fusion-Ability-Randomizer)
 -BB's Quality of Life Cheats (Not on GitHub yet)
 -BB's Very Hard Difficulty (WIP)
