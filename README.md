@@ -1,11 +1,11 @@
 # BB-s-Infinite-Fusion-Mod-Menu
+## Description:
+<p>This Mod adds a Mod Menu aswell as a bunch of Resources that many of my Mods need to the Game.</p>
+<p>To Open the Mod Menu, simply open up the pause menu and press "Left".</p>
+<p>To exit, press "Cancle", "Right" or "Left" agian. ("Right" will bring you back to the Pause Menu, "Left and Cancle will leave the Menu completly")</p>
 
-This Mod adds a Mod Menu aswell as a bunch of Resources that many of my Mods need to the Game.
-To Open the Mod Menu, simply open up the pause menu and press "Left".
-To exit, press "Cancle", "Right" or "Left" agian. ("Right" will bring you back to the Pause Menu, "Left and Cancle will leave the Menu completly")
-
-This is meant to be a Framework for other Mods, it comes with one Mod preinstalled (Access PC from anywhere).
-Mods that need the Mod Menu to work:
+<p>This is meant to be a Framework for other Mods, it comes with one Mod preinstalled (Access PC from anywhere).</p>
+<p>Mods that need the Mod Menu to work:</p>
 <li>BB's Ability Randomizer (https://github.com/BuezliBueb/BB-s-Infinite-Fusion-Ability-Randomizer)</li>
 <li>BB's Quality of Life Cheats (Not on GitHub yet)</li>
 <li>BB's Very Hard Difficulty (WIP)</li>
