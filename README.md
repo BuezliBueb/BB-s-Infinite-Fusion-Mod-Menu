@@ -4,6 +4,7 @@ This Mod adds a Mod Menu aswell as a bunch of Resources that many of my Mods nee
 To Open the Mod Menu, simply open up the pause menu and press "Left".
 To exit, press "Cancle", "Right" or "Left" agian. ("Right" will bring you back to the Pause Menu, "Left and Cancle will leave the Menu completly")
 
+![infiniteFusionModMenu-ezgif com-crop](https://github.com/BuezliBueb/BB-s-Infinite-Fusion-Mod-Menu/assets/164735539/d08ca695-c40d-4a44-8f93-d56ea3bf3199)
 
 Install/ Uninstall:
 Simply drag the Contents into your Folder that contains "Game.exe"
