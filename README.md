@@ -19,7 +19,9 @@ Mods that need the Mod Menu to work:
 <p>To uninstall, Navigate to Data/Scripts/998_mods and remove the following files: [001_BB_Mod_GameDataRegistry.rb, 001_UI_ModMenuCommands.rb, 099_BB_Mod_LoadRegistry.rb, 002_BB_ModMenu]</p>
 <p>Warning: Removing the above Mentioned Files without removing any Mod depending on them will cause your game to Crash.</p>
 <br>
-## For Modders
+
+## For Modders:
+
 <details>
 <summary>Adding your own mods to the Mod Menu</summary>
 <p>To register your Options in the Mod Menu, add the Following code:</p>
