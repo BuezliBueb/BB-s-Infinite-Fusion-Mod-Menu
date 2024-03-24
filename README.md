@@ -22,3 +22,33 @@ Install/ Uninstall:
 Simply drag the Contents into your Folder that contains "Game.exe"
 To uninstall, Navigate to Data/Scripts/998_mods and remove the following files: [001_BB_Mod_GameDataRegistry.rb, 001_UI_ModMenuCommands.rb, 099_BB_Mod_LoadRegistry.rb, 002_BB_ModMenu]
 Waring: Removing the above Mentioned Files without removing any Mod depending on them will cause your game to Crash.
+
+
+For Modders:
+To register your Options in the Mod Menu, add the Following code:
+ModMenuCommands.register("YourIdHere",{
+    "parent"      => "main",
+    "name"        => _INTL("The name you want displayed"),
+    "description" => _INTL("The Description you want displayed"),
+    "effect"      => proc{
+      #Write your Code Here 
+    }
+  }
+)
+
+To add a menu with a submenu:
+ModMenuCommands.register("YourIdHere",{
+    "parent"      => "main",
+    "name"        => _INTL("The name you want displayed"),
+    "description" => _INTL("The Description you want displayed"),
+  }
+)
+ModMenuCommands.register("YourSubIdHere",{
+    "parent"      => "YourIdHere",
+    "name"        => _INTL("The name you want displayed"),
+    "description" => _INTL("The Description you want displayed"),
+        "effect"      => proc{
+      #Write your Code Here 
+    }
+  }
+)
