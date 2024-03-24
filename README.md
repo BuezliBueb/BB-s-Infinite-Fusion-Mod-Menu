@@ -7,7 +7,7 @@
 <p>This is meant to be a Framework for other Mods, it comes with one Mod preinstalled (Access PC from anywhere).</p>
 <p>Mods that need the Mod Menu to work:</p>
 <li>BB's Ability Randomizer (https://github.com/BuezliBueb/BB-s-Infinite-Fusion-Ability-Randomizer)</li>
-<li>BB's Quality of Life Cheats (Not on GitHub yet)</li>
+<li>BB's Quality of Life Cheats (https://github.com/BuezliBueb/BB-s-Infinite-Fusion-Quality-of-Life-Cheats)</li>
 <li>BB's Very Hard Difficulty (WIP)</li>
 <li>BB's BodyPress & Co (WIP)</li>
 <br>
