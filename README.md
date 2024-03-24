@@ -14,15 +14,16 @@ Mods that need the Mod Menu to work:
 
 ![infiniteFusionModMenu-ezgif com-crop](https://github.com/BuezliBueb/BB-s-Infinite-Fusion-Mod-Menu/assets/164735539/d08ca695-c40d-4a44-8f93-d56ea3bf3199)
 
-Install/ Uninstall:
-Simply drag the Contents into your Folder that contains "Game.exe"
-To uninstall, Navigate to Data/Scripts/998_mods and remove the following files: [001_BB_Mod_GameDataRegistry.rb, 001_UI_ModMenuCommands.rb, 099_BB_Mod_LoadRegistry.rb, 002_BB_ModMenu]
-Warning: Removing the above Mentioned Files without removing any Mod depending on them will cause your game to Crash.
+## Install/ Uninstall:
+<p>Simply drag the Contents into your Folder that contains "Game.exe"</p>
+<p>To uninstall, Navigate to Data/Scripts/998_mods and remove the following files: [001_BB_Mod_GameDataRegistry.rb, 001_UI_ModMenuCommands.rb, 099_BB_Mod_LoadRegistry.rb, 002_BB_ModMenu]</p>
+<p>Warning: Removing the above Mentioned Files without removing any Mod depending on them will cause your game to Crash.</p>
 
 <details>
-<summary>For Modders</summary>
-To register your Options in the Mod Menu, add the Following code:
-```
+<summary>**For Modders**</summary>
+<p>To register your Options in the Mod Menu, add the Following code:</p>
+<pre>
+  <code class="language-ruby">
 ModMenuCommands.register("YourIdHere",{
     "parent"      => "main",
     "name"        => _INTL("The name you want displayed"),
@@ -32,9 +33,11 @@ ModMenuCommands.register("YourIdHere",{
     }
   }
 )
-```
-To add a menu with a submenu:
-```
+  </code>
+</pre>
+<p>To add a menu with a submenu:</p>
+<pre>
+  <code class="language-ruby">
 ModMenuCommands.register("YourIdHere",{
     "parent"      => "main",
     "name"        => _INTL("The name you want displayed"),
@@ -50,5 +53,7 @@ ModMenuCommands.register("YourSubIdHere",{
     }
   }
 )
-```
+
+  </code>
+</pre>
 </details>
