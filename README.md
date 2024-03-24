@@ -2,7 +2,7 @@
 ## Description:
 <p>This Mod adds a Mod Menu aswell as a bunch of Resources that many of my Mods need to the Game.</p>
 <p>To Open the Mod Menu, simply open up the pause menu and press "Left".</p>
-<p>To exit, press "Cancle", "Right" or "Left" again ("Right" will bring you back to the Pause Menu, "Left and Cancle will leave the Menu completly")</p>
+<p>To exit, press "Cancle", "Right" or "Left" again ("Right" will bring you back to the Pause Menu, "Left" and "Cancle" will leave the Menu")</p>
 
 <p>This is meant to be a Framework for other Mods, it comes with one Mod preinstalled (Access PC from anywhere).</p>
 <p>Mods that need the Mod Menu to work:</p>
