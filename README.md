@@ -4,6 +4,14 @@ This Mod adds a Mod Menu aswell as a bunch of Resources that many of my Mods nee
 To Open the Mod Menu, simply open up the pause menu and press "Left".
 To exit, press "Cancle", "Right" or "Left" agian. ("Right" will bring you back to the Pause Menu, "Left and Cancle will leave the Menu completly")
 
+This is meant to be a Framework for other Mods, it comes with one Mod preinstalled (Access PC from anywhere).
+Mods that need the Mod Menu to work:
+-BB's Ability Randomizer (https://github.com/BuezliBueb/BB-s-Infinite-Fusion-Ability-Randomizer)
+-BB's Quality of Life Cheats (Not on GitHub yet)
+-BB's Very Hard Difficulty (WIP)
+-BB's BodyPress & Co (WIP)
+
+
 ![infiniteFusionModMenu-ezgif com-crop](https://github.com/BuezliBueb/BB-s-Infinite-Fusion-Mod-Menu/assets/164735539/d08ca695-c40d-4a44-8f93-d56ea3bf3199)
 
 Install/ Uninstall:
